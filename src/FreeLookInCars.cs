@@ -1,15 +1,12 @@
-﻿using Harmony;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace FreeLookInCars
 {
-    [HarmonyPatch(typeof(PlayerInVehicle))]
-    [HarmonyPatch("Start")]
-    public class FreeLookInCars
+    internal class FreeLookInCars
     {
-        public static void Postfix(PlayerInVehicle __instance)
+        public static void OnLoad()
         {
-            __instance.m_YawLimitDegrees = new Vector2(-175, 175);
+            Debug.Log("[Free-Look-In-Cars]: Version " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version);
         }
     }
 }

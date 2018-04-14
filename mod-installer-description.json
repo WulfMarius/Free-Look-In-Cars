@@ -1,0 +1,18 @@
+﻿{
+	"name": "Free-Look-In-Cars",
+	"description": "Allows to look out the back window in cars",
+	"url": "https://github.com/WulfMarius/Free-Look-In-Cars",
+	"releases": [
+		{
+			"version": "2.0.0",
+			"url": "https://github.com/WulfMarius/Free-Look-In-Cars/releases/tag/2.0.0",
+			"changes": "updated to work with TLD V1.27",
+			"dependencies": [],
+			"assets": [
+				{
+					"url": "https://github.com/WulfMarius/Free-Look-In-Cars/releases/download/2.0.0/Free-Look-In-Cars-V2.0.0.zip"
+				}
+			]
+		}
+	]
+}

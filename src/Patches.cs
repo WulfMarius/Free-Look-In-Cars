@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace FreeLookInCars
 {
-    [HarmonyPatch(typeof(PlayerInVehicle), "Start")]
-    public class PlayerInVehicle_Start
+    [HarmonyPatch(typeof(PlayerInVehicle), "EnterVehicle")]
+    public class PlayerInVehicle_EnterVehicle
     {
         public static void Postfix(PlayerInVehicle __instance)
         {
